@@ -58,9 +58,9 @@ We welcome contributions! Here’s how you can get involved:
 
 Have questions, feedback, or collaboration ideas? Feel free to reach out:
 
-- 📧 Email: yourname@example.com
-- 🌐 LinkedIn: [YourProfile](https://linkedin.com/in/yourprofile)
-- 🐦 Twitter: [@YourHandle](https://twitter.com/YourHandle)
+- 📧 Email: sharmayush70@gmail.com
+- 🌐 LinkedIn: linkedin.com/in/ayush-kumar-8026ba32b
+
 
 ---
 
