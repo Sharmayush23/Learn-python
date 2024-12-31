@@ -21,3 +21,15 @@ def even_odd():
 
 even_odd()
 
+#if a function return type is not specified it returns None
+    #we can specify the return type of a function using the -> syntax
+    #syntax: def function_name() -> return_type:
+    #return_type - type of value returned by the function
+    #return statement is used to return a value from a function
+    #syntax: return value
+    #value - value to return from the function
+    #return statement can be used to return multiple values from a function
+    #syntax: return value1, value2
+
+def add(a: int, b: int) -> int:
+    return a + b

@@ -21,5 +21,5 @@ def bfs(visited,graph,node):
                 visited.append(neigh)
                 queue.append(neigh)
    
-print("following is the breadht first first search ")
+print("following is the breadht first  search ")
 bfs(visited,graph,'5')       
