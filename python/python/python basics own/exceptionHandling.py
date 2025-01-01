@@ -46,3 +46,51 @@ except Exception as e:
    #assert 2+2 == 5, 'Error: 2+2 is not 5'
 
 
+#we can also make our own exception class
+#by inherting the Exception class of the pyhton 
+class myexception(Exception):
+    def __init__(self,message):
+        print(message)
+n=int(input("enter the number"))
+try:
+    if n<0:
+        raise myexception("enter the positive number")
+except myexception as e:
+    print(e)
+
+
+#use case of self made  exception class 
+class SecurityError(Exception):
+    def __init__(self,message):
+        print(message)
+    def logout(self):
+        print("logging out from all the devices")
+
+class google:
+    def __init__(self,email,password,device):
+        
+        self.device = device
+        self.email = email
+        self.password = password
+    def login(self,email,password,device):
+        if device != self.device:
+          raise SecurityError("device not registered")
+        if email==self.email and password==self.password:
+            print("login successfull")
+        else:
+            print("login failed")
+
+        
+
+
+obj=google("ayyush2gmail.com","1234","iphone")
+
+try:
+    obj.login("ayyush2gmail.com","1234","iphone")
+except SecurityError as e:
+    e.logout()
+
+else:
+    print("login successfull")
+finally:
+    print("database connectionis closed")
