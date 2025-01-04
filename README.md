@@ -35,10 +35,10 @@ Welcome to **Python Playground**! This repository is your one-stop destination f
 
 ## 📁 **Folder Structure**
 
-- `/Basics/`: Learn Python fundamentals.
+- `/pyhton/`: Learn Python fundamentals.
 - `/OOP/`: Master object-oriented programming.
-- `/Data-Science/`: Explore data manipulation and visualization.
-- `/Automation/`: Build automated tools for everyday tasks.
+- `/jupiter-notebook/`: Explore data manipulation and visualization.
+- `/python_question_practice/`: Build automated tools for everyday tasks.
 
 ---
 
