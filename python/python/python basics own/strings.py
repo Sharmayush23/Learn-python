@@ -39,28 +39,31 @@ print(s[::-1])  # Output: dlroW olleH (Reversed string)
 
 # String Operators:
 # Arithmetic Operators:
-# +: Concatenation. Example: "Delhi" + "Mumbai" outputs "DelhiMumbai".
-# *: Repetition. Example: "Delhi" * 3 outputs "DelhiDelhiDelhi".
+     # +: Concatenation. Example: "Delhi" + "Mumbai" outputs "DelhiMumbai".
+     # *: Repetition. Example: "Delhi" * 3 outputs "DelhiDelhiDelhi".
+
 # Relational Operators:
-# Compare strings lexicographically (like dictionary order). Capital letters are considered smaller than small letters.
-# Examples: >, <, ==, !=, >=, <=
+     # Compare strings lexicographically (like dictionary order). Capital letters are considered smaller than small letters.
+     # Examples: >, <, ==, !=, >=, <=
+
 # Logical Operators:
-# and, or, not.
-# Non-empty strings are considered True, empty strings are False.
-# and returns the first false value or the last true value; or returns the first true value or the last false value.
-# Looping: Strings can be iterated.
-# Example:
+     # and, or, not.
+     # Non-empty strings are considered True, empty strings are False.
+     # and returns the first false value or the last true value; or returns the first true value or the last false value.
+     # Looping: Strings can be iterated.
+     # Example:
 for char in "Delhi":
     print(char)
 # Membership Operators:
 # in, not in: Check if a substring exists. Example: "Delhi" in "New Delhi" returns True.
 
 # String Functions:
-# Common Functions:
-# len(): Returns the length of the string.
-# max(): Returns the character with the maximum value based on Unicode.
-# min(): Returns the character with the minimum value based on Unicode.
-# sorted(): Returns a list of characters sorted in ascending order.
+     # Common Functions:
+     # len(): Returns the length of the string.
+     # max(): Returns the character with the maximum value based on Unicode.
+     # min(): Returns the character with the minimum value based on Unicode.
+     # sorted(): Returns a list of characters sorted in ascending order.
+
 # String-Specific Functions:
 # capitalize(): Capitalizes the first character.
 # title(): Converts to title case (first letter of each word capitalized).
