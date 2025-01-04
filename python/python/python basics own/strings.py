@@ -65,23 +65,23 @@ for char in "Delhi":
      # sorted(): Returns a list of characters sorted in ascending order.
 
 # String-Specific Functions:
-# capitalize(): Capitalizes the first character.
-# title(): Converts to title case (first letter of each word capitalized).
-# upper(): Converts to uppercase.
-# lower(): Converts to lowercase.
-# count(): Counts occurrences of a substring.
-# find(): Returns the index of the first occurrence of a substring, or -1 if not found.
-# index(): Returns the index of the first occurrence of a substring or raises an error if not found.
-# startswith(): Checks if the string starts with a specific substring.
-# endswith(): Checks if the string ends with a specific substring.
-# format(): Formats a string by inserting values into placeholders.
-# isalnum(): Checks if all characters are alphanumeric.
-# isalpha(): Checks if all characters are alphabetic.
-# isidentifier(): Checks if the string is a valid identifier.
-# split(): Splits the string into a list of substrings based on a delimiter, which defaults to spaces.
-# join(): Joins a list of strings into one string using a separator string.
-# replace(): Replaces all occurrences of a substring with another string.
-# strip(): Removes leading/trailing whitespace.
+     # capitalize(): Capitalizes the first character.
+     # title(): Converts to title case (first letter of each word capitalized).
+     # upper(): Converts to uppercase.
+     # lower(): Converts to lowercase.
+     # count(): Counts occurrences of a substring.
+     # find(): Returns the index of the first occurrence of a substring, or -1 if not found.
+     # index(): Returns the index of the first occurrence of a substring or raises an error if not found.
+     # startswith(): Checks if the string starts with a specific substring.
+     # endswith(): Checks if the string ends with a specific substring.
+     # format(): Formats a string by inserting values into placeholders.
+     # isalnum(): Checks if all characters are alphanumeric.
+     # isalpha(): Checks if all characters are alphabetic.
+     # isidentifier(): Checks if the string is a valid identifier.
+     # split(): Splits the string into a list of substrings based on a delimiter, which defaults to spaces.
+     # join(): Joins a list of strings into one string using a separator string.
+     # replace(): Replaces all occurrences of a substring with another string.
+     # strip(): Removes leading/trailing whitespace.
 
 # 3. Other important points:
 
