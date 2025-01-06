@@ -59,11 +59,7 @@ Topics covered:
          - reverse(): Reverses the list in place (permanent change): list1.reverse().
          - sort(): Sorts the list in place (permanent change): list1.sort().
          - copy(): Creates a shallow copy of the list: list2 = list1.copy().
-    - List Comprehension: A concise way to create lists.
-      - Syntax: [expression for item in iterable if condition].
-         - Example: [i for i in range(1, 11)] creates a list of numbers from 1 to 10.
-         - With a condition: [i for i in range(1, 51) if i % 5 == 0] creates a list of numbers from 1 to 50 that are divisible by 5.
-         - Nested list comprehension: [[1 for j in range(3)] for i in range(3)] creates a 2D matrix.
+    
     - Zip Function: Used to combine multiple lists element-wise.
       - Syntax: zip(list1, list2)
       - Returns a zip object (an iterator of tuples). You can convert the zip object to a list using list(zip(list1, list2)).
