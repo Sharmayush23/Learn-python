@@ -1,6 +1,6 @@
 
 """
-`**kwargs` (short for "keyword arguments") is used when you want to pass **a variable number of named arguments** (key-value pairs) into a function. These arguments are automatically packaged into a dictionary within the function.
+`**kwargs` (short form "keyword arguments") is used when you want to pass **a variable number of named arguments** (key-value pairs) into a function. These arguments are automatically packaged into a dictionary within the function.
 
 ---
 
@@ -141,3 +141,16 @@ def configure_app(**settings):
         print(f"Setting {setting} = {value}")
 
 configure_app(debug=True, version="1.2.0", log_level="INFO")
+
+
+
+#args
+
+def wrapper_function(func, **kwargs):
+    print("Wrapper doing something before the function call...")
+    return func(**kwargs)
+
+def real_function(x, y):
+    return x + y
+
+print(wrapper_function(real_function, x=3, y=5))
