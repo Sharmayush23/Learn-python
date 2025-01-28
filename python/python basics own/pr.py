@@ -41,4 +41,4 @@ company = {
 
 charlie_info = company["department1"]["employees"]["emp2"]
 print(charlie_info)
- 
+print(" FOLLOWING SOME DAYS I AM NOT WORKING IN THIS REPO PROPERLY DUE TO SOME REASON")
