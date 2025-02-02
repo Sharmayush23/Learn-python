@@ -1,4 +1,4 @@
-# 🐍 Python Playground: A Hub for Learning
+# 🐍 Python Playground: A Hub for Learning python 
 
 Welcome to **Python Playground**! This repository is your one-stop destination for diving into the versatile world of Python programming. Whether you're just starting out or an experienced coder, there's something here for everyone.
 
